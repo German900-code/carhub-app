@@ -1,14 +1,14 @@
 import { Link, NavLink } from "react-router-dom";
 import { CarFront, Heart, Menu, Plus } from "lucide-react";
 
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 import {
   Sheet,
   SheetContent,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "./ui/sheet";
+} from "../ui/sheet";
 
 const Header = () => {
   const navLinkClass = ({ isActive }: { isActive: boolean }) =>

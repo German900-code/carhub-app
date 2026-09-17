@@ -2,6 +2,10 @@ import { ArrowRight, Search } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import CarCard from "@/components/CarCard/CarCard";
+import FeaturedCars from "@/sections/FeaturedCars";
+import WhyChooseUsGrid from "@/sections/WhyChooseUs/WhyChooseUsGrid";
+// import WhyChooseUsCard from "@/sections/WhyChooseUs/WhyChooseUsCard";
 
 const Home = () => {
   return (
@@ -81,6 +85,10 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      {/* <CarCard /> */}
+      <FeaturedCars />
+      <WhyChooseUsGrid />
     </section>
   );
 };
