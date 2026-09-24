@@ -5,6 +5,8 @@ import { Input } from "@/components/ui/input";
 import CarCard from "@/components/CarCard/CarCard";
 import FeaturedCars from "@/sections/FeaturedCars";
 import WhyChooseUsGrid from "@/sections/WhyChooseUs/WhyChooseUsGrid";
+import CallToAction from "@/sections/CallToAction";
+import Footer from "@/components/Footer/Footer";
 // import WhyChooseUsCard from "@/sections/WhyChooseUs/WhyChooseUsCard";
 
 const Home = () => {
@@ -89,6 +91,7 @@ const Home = () => {
       {/* <CarCard /> */}
       <FeaturedCars />
       <WhyChooseUsGrid />
+      <CallToAction />
     </section>
   );
 };

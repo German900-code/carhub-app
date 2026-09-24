@@ -3,9 +3,11 @@ import { cars } from "@/data/cars";
 
 const FeaturedCars = () => {
   return (
-    <section className="m-5">
+    <section className="mt-10 mb-10 ">
       <div className="flex flex-col gap-2 mb-5">
-        <h2 className="text-primary text-5xl font-bold">Featured cars</h2>
+        <h2 className="text-4xl font-bold">
+          <span className="text-primary">Featured</span> cars
+        </h2>
         <span className="text-muted-foreground text-xl">
           Explore our handpicked selection
         </span>

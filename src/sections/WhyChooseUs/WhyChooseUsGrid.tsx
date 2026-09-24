@@ -6,29 +6,25 @@ const dataCards = [
     id: 1,
     icon: Search,
     title: "Easy Search",
-    description:
-      "Find the right car quickly with our powerful search and smart filters.",
+    description: "Find the right car with powerful search and smart filters.",
   },
   {
     id: 2,
     icon: Heart,
     title: "Save Favorites",
-    description:
-      "Keep your favorite cars in one place and never lose track of them.",
+    description: "Save cars you like and compare them later.",
   },
   {
     id: 3,
     icon: Shield,
     title: "Detailed Info",
-    description:
-      "Get all the important details - from specs and history to high-quality photos.",
+    description: "Explore specs, features, mileage and vehicle history.",
   },
   {
     id: 4,
     icon: CarFront,
     title: "Wide Selection",
-    description:
-      "Explore a huge variety of cars from different brands model and price ranges.",
+    description: "Browse cars across brands, prices and body types.",
   },
 ];
 
@@ -48,7 +44,7 @@ const WhyChooseUsGrid = () => {
         We make finding your next car simple, safe and enjoyable. <br /> Here's
         why thousands of drivers choose CarHub.
       </p>
-      <div className="flex flex-col items-center justify-between gap-4 md:flex-row mt-7">
+      <div className="flex flex-col items-center justify-between gap-4 md:flex-row mt-7 w-full">
         {dataCards.map((card) => (
           <WhyChooseUsCard card={card} key={card.id} />
         ))}
